@@ -1,0 +1,12 @@
+<script lang="javascript">
+    console.log("start message");
+    setTimeout(() => {
+        console.log('ready go')
+        ReactNativeWebView.postMessage("just a test from html","*");
+    }, 3000)
+    
+</script>
+<body>
+    just test message 2
+
+</body>
